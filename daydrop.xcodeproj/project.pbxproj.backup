@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F18682B73098F30B003D5297 /* CampusEventsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F186829C3098F101003D5297 /* CampusEventsApp.swift */; };
+		F18682B83098F30B003D5297 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F186829D3098F101003D5297 /* Theme.swift */; };
+		F18682B93098F30E003D5297 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F186829F3098F101003D5297 /* Models.swift */; };
+		F18682BA3098F311003D5297 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18682A13098F101003D5297 /* AuthService.swift */; };
+		F18682BB3098F311003D5297 /* EventFeedService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18682A23098F101003D5297 /* EventFeedService.swift */; };
+		F18682BC3098F311003D5297 /* EventSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18682A33098F101003D5297 /* EventSaver.swift */; };
+		F18682BD3098F311003D5297 /* FeedParsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18682A43098F101003D5297 /* FeedParsers.swift */; };
+		F18682BE3098F311003D5297 /* FlyerScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18682A53098F101003D5297 /* FlyerScanner.swift */; };
+		F18682BF3098F311003D5297 /* GoogleCalendarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18682A63098F101003D5297 /* GoogleCalendarService.swift */; };
+		F18682C03098F311003D5297 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18682A73098F101003D5297 /* NotificationService.swift */; };
+		F18682C13098F311003D5297 /* PhotoLibrarySaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18682A83098F101003D5297 /* PhotoLibrarySaver.swift */; };
+		F18682C23098F311003D5297 /* TextDateExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18682A93098F101003D5297 /* TextDateExtractor.swift */; };
+		F18682C33098F315003D5297 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18682AB3098F101003D5297 /* CategoriesView.swift */; };
+		F18682C43098F315003D5297 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18682AC3098F101003D5297 /* Components.swift */; };
+		F18682C53098F315003D5297 /* DepartmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18682AD3098F101003D5297 /* DepartmentsView.swift */; };
+		F18682C63098F315003D5297 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18682AE3098F101003D5297 /* DiscoverView.swift */; };
+		F18682C73098F315003D5297 /* EventsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18682AF3098F101003D5297 /* EventsListView.swift */; };
+		F18682C83098F315003D5297 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18682B03098F101003D5297 /* RootView.swift */; };
+		F18682C93098F315003D5297 /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18682B13098F101003D5297 /* ScanView.swift */; };
+		F18682CA3098F315003D5297 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18682B23098F101003D5297 /* SettingsView.swift */; };
+		F18682CB3098F315003D5297 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18682B33098F101003D5297 /* SignInView.swift */; };
+		F18682CE3098F399003D5297 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = F18682CD3098F399003D5297 /* GoogleSignIn */; };
+		F18682D03098F399003D5297 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F18682CF3098F399003D5297 /* GoogleSignInSwift */; };
+		F18682ED3098FC05003D5297 /* TextDateExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18682DF3098FC05003D5297 /* TextDateExtractor.swift */; };
+		F18682EE3098FC05003D5297 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18682DD3098FC05003D5297 /* NotificationService.swift */; };
+		F18682EF3098FC05003D5297 /* EventFeedService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18682D83098FC05003D5297 /* EventFeedService.swift */; };
+		F18682F03098FC05003D5297 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18682D53098FC05003D5297 /* Models.swift */; };
+		F18682F13098FC05003D5297 /* PhotoLibrarySaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18682DE3098FC05003D5297 /* PhotoLibrarySaver.swift */; };
+		F18682F23098FC05003D5297 /* EventsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18682E53098FC05003D5297 /* EventsListView.swift */; };
+		F18682F33098FC05003D5297 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18682E13098FC05003D5297 /* CategoriesView.swift */; };
+		F18682F43098FC05003D5297 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18682E43098FC05003D5297 /* DiscoverView.swift */; };
+		F18682F53098FC05003D5297 /* FlyerScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18682DB3098FC05003D5297 /* FlyerScanner.swift */; };
+		F18682F63098FC05003D5297 /* CampusEventsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18682D23098FC05003D5297 /* CampusEventsApp.swift */; };
+		F18682F73098FC05003D5297 /* GoogleCalendarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18682DC3098FC05003D5297 /* GoogleCalendarService.swift */; };
+		F18682F83098FC05003D5297 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18682D73098FC05003D5297 /* AuthService.swift */; };
+		F18682F93098FC05003D5297 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18682E93098FC05003D5297 /* SignInView.swift */; };
+		F18682FA3098FC05003D5297 /* EventSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18682D93098FC05003D5297 /* EventSaver.swift */; };
+		F18682FB3098FC05003D5297 /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18682E73098FC05003D5297 /* ScanView.swift */; };
+		F18682FC3098FC05003D5297 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18682E63098FC05003D5297 /* RootView.swift */; };
+		F18682FD3098FC05003D5297 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18682E23098FC05003D5297 /* Components.swift */; };
+		F18682FE3098FC05003D5297 /* FeedParsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18682DA3098FC05003D5297 /* FeedParsers.swift */; };
+		F18682FF3098FC05003D5297 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18682D33098FC05003D5297 /* Theme.swift */; };
+		F18683003098FC05003D5297 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18682E83098FC05003D5297 /* SettingsView.swift */; };
+		F18683013098FC05003D5297 /* DepartmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18682E33098FC05003D5297 /* DepartmentsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F186829C3098F101003D5297 /* CampusEventsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampusEventsApp.swift; sourceTree = "<group>"; };
+		F186829D3098F101003D5297 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		F186829F3098F101003D5297 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		F18682A13098F101003D5297 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		F18682A23098F101003D5297 /* EventFeedService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventFeedService.swift; sourceTree = "<group>"; };
+		F18682A33098F101003D5297 /* EventSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventSaver.swift; sourceTree = "<group>"; };
+		F18682A43098F101003D5297 /* FeedParsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedParsers.swift; sourceTree = "<group>"; };
+		F18682A53098F101003D5297 /* FlyerScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyerScanner.swift; sourceTree = "<group>"; };
+		F18682A63098F101003D5297 /* GoogleCalendarService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleCalendarService.swift; sourceTree = "<group>"; };
+		F18682A73098F101003D5297 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		F18682A83098F101003D5297 /* PhotoLibrarySaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibrarySaver.swift; sourceTree = "<group>"; };
+		F18682A93098F101003D5297 /* TextDateExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDateExtractor.swift; sourceTree = "<group>"; };
+		F18682AB3098F101003D5297 /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		F18682AC3098F101003D5297 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		F18682AD3098F101003D5297 /* DepartmentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentsView.swift; sourceTree = "<group>"; };
+		F18682AE3098F101003D5297 /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
+		F18682AF3098F101003D5297 /* EventsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsListView.swift; sourceTree = "<group>"; };
+		F18682B03098F101003D5297 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		F18682B13098F101003D5297 /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
+		F18682B23098F101003D5297 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F18682B33098F101003D5297 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		F18682B53098F101003D5297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F18682D13098FA6D003D5297 /* daydrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = daydrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F18682D23098FC05003D5297 /* CampusEventsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampusEventsApp.swift; sourceTree = "<group>"; };
+		F18682D33098FC05003D5297 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		F18682D53098FC05003D5297 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		F18682D73098FC05003D5297 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		F18682D83098FC05003D5297 /* EventFeedService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventFeedService.swift; sourceTree = "<group>"; };
+		F18682D93098FC05003D5297 /* EventSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventSaver.swift; sourceTree = "<group>"; };
+		F18682DA3098FC05003D5297 /* FeedParsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedParsers.swift; sourceTree = "<group>"; };
+		F18682DB3098FC05003D5297 /* FlyerScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyerScanner.swift; sourceTree = "<group>"; };
+		F18682DC3098FC05003D5297 /* GoogleCalendarService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleCalendarService.swift; sourceTree = "<group>"; };
+		F18682DD3098FC05003D5297 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		F18682DE3098FC05003D5297 /* PhotoLibrarySaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibrarySaver.swift; sourceTree = "<group>"; };
+		F18682DF3098FC05003D5297 /* TextDateExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDateExtractor.swift; sourceTree = "<group>"; };
+		F18682E13098FC05003D5297 /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		F18682E23098FC05003D5297 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		F18682E33098FC05003D5297 /* DepartmentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentsView.swift; sourceTree = "<group>"; };
+		F18682E43098FC05003D5297 /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
+		F18682E53098FC05003D5297 /* EventsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsListView.swift; sourceTree = "<group>"; };
+		F18682E63098FC05003D5297 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		F18682E73098FC05003D5297 /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
+		F18682E83098FC05003D5297 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F18682E93098FC05003D5297 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		F18682EB3098FC05003D5297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F186822A3098EF92003D5297 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18682CE3098F399003D5297 /* GoogleSignIn in Frameworks */,
+				F18682D03098F399003D5297 /* GoogleSignInSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F18682243098EF92003D5297 = {
+			isa = PBXGroup;
+			children = (
+				F18682EC3098FC05003D5297 /* CampusEvents */,
+				F18682B63098F101003D5297 /* CampusEvents */,
+				F18682D13098FA6D003D5297 /* daydrop.app */,
+			);
+			sourceTree = "<group>";
+		};
+		F186829E3098F101003D5297 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F186829C3098F101003D5297 /* CampusEventsApp.swift */,
+				F186829D3098F101003D5297 /* Theme.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F18682A03098F101003D5297 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F186829F3098F101003D5297 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F18682AA3098F101003D5297 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F18682A13098F101003D5297 /* AuthService.swift */,
+				F18682A23098F101003D5297 /* EventFeedService.swift */,
+				F18682A33098F101003D5297 /* EventSaver.swift */,
+				F18682A43098F101003D5297 /* FeedParsers.swift */,
+				F18682A53098F101003D5297 /* FlyerScanner.swift */,
+				F18682A63098F101003D5297 /* GoogleCalendarService.swift */,
+				F18682A73098F101003D5297 /* NotificationService.swift */,
+				F18682A83098F101003D5297 /* PhotoLibrarySaver.swift */,
+				F18682A93098F101003D5297 /* TextDateExtractor.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F18682B43098F101003D5297 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F18682AB3098F101003D5297 /* CategoriesView.swift */,
+				F18682AC3098F101003D5297 /* Components.swift */,
+				F18682AD3098F101003D5297 /* DepartmentsView.swift */,
+				F18682AE3098F101003D5297 /* DiscoverView.swift */,
+				F18682AF3098F101003D5297 /* EventsListView.swift */,
+				F18682B03098F101003D5297 /* RootView.swift */,
+				F18682B13098F101003D5297 /* ScanView.swift */,
+				F18682B23098F101003D5297 /* SettingsView.swift */,
+				F18682B33098F101003D5297 /* SignInView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F18682B63098F101003D5297 /* CampusEvents */ = {
+			isa = PBXGroup;
+			children = (
+				F186829E3098F101003D5297 /* App */,
+				F18682A03098F101003D5297 /* Models */,
+				F18682AA3098F101003D5297 /* Services */,
+				F18682B43098F101003D5297 /* Views */,
+				F18682B53098F101003D5297 /* Info.plist */,
+			);
+			path = CampusEvents;
+			sourceTree = "<group>";
+		};
+		F18682D43098FC05003D5297 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F18682D23098FC05003D5297 /* CampusEventsApp.swift */,
+				F18682D33098FC05003D5297 /* Theme.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F18682D63098FC05003D5297 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F18682D53098FC05003D5297 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F18682E03098FC05003D5297 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F18682D73098FC05003D5297 /* AuthService.swift */,
+				F18682D83098FC05003D5297 /* EventFeedService.swift */,
+				F18682D93098FC05003D5297 /* EventSaver.swift */,
+				F18682DA3098FC05003D5297 /* FeedParsers.swift */,
+				F18682DB3098FC05003D5297 /* FlyerScanner.swift */,
+				F18682DC3098FC05003D5297 /* GoogleCalendarService.swift */,
+				F18682DD3098FC05003D5297 /* NotificationService.swift */,
+				F18682DE3098FC05003D5297 /* PhotoLibrarySaver.swift */,
+				F18682DF3098FC05003D5297 /* TextDateExtractor.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F18682EA3098FC05003D5297 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F18682E13098FC05003D5297 /* CategoriesView.swift */,
+				F18682E23098FC05003D5297 /* Components.swift */,
+				F18682E33098FC05003D5297 /* DepartmentsView.swift */,
+				F18682E43098FC05003D5297 /* DiscoverView.swift */,
+				F18682E53098FC05003D5297 /* EventsListView.swift */,
+				F18682E63098FC05003D5297 /* RootView.swift */,
+				F18682E73098FC05003D5297 /* ScanView.swift */,
+				F18682E83098FC05003D5297 /* SettingsView.swift */,
+				F18682E93098FC05003D5297 /* SignInView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F18682EC3098FC05003D5297 /* CampusEvents */ = {
+			isa = PBXGroup;
+			children = (
+				F18682D43098FC05003D5297 /* App */,
+				F18682D63098FC05003D5297 /* Models */,
+				F18682E03098FC05003D5297 /* Services */,
+				F18682EA3098FC05003D5297 /* Views */,
+				F18682EB3098FC05003D5297 /* Info.plist */,
+			);
+			path = CampusEvents;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F186822C3098EF92003D5297 /* daydrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F18682383098EF93003D5297 /* Build configuration list for PBXNativeTarget "daydrop" */;
+			buildPhases = (
+				F18682293098EF92003D5297 /* Sources */,
+				F186822A3098EF92003D5297 /* Frameworks */,
+				F186822B3098EF92003D5297 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = daydrop;
+			packageProductDependencies = (
+				F18682CD3098F399003D5297 /* GoogleSignIn */,
+				F18682CF3098F399003D5297 /* GoogleSignInSwift */,
+			);
+			productName = daydrop;
+			productReference = F18682D13098FA6D003D5297 /* daydrop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F18682253098EF92003D5297 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					F186822C3098EF92003D5297 = {
+						CreatedOnToolsVersion = 26.6;
+					};
+				};
+			};
+			buildConfigurationList = F18682283098EF92003D5297 /* Build configuration list for PBXProject "daydrop" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F18682243098EF92003D5297;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				F18682CC3098F399003D5297 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F18682243098EF92003D5297;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F186822C3098EF92003D5297 /* daydrop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F186822B3098EF92003D5297 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F18682293098EF92003D5297 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18682C33098F315003D5297 /* CategoriesView.swift in Sources */,
+				F18682C43098F315003D5297 /* Components.swift in Sources */,
+				F18682C53098F315003D5297 /* DepartmentsView.swift in Sources */,
+				F18682C63098F315003D5297 /* DiscoverView.swift in Sources */,
+				F18682C73098F315003D5297 /* EventsListView.swift in Sources */,
+				F18682C83098F315003D5297 /* RootView.swift in Sources */,
+				F18682C93098F315003D5297 /* ScanView.swift in Sources */,
+				F18682CA3098F315003D5297 /* SettingsView.swift in Sources */,
+				F18682CB3098F315003D5297 /* SignInView.swift in Sources */,
+				F18682ED3098FC05003D5297 /* TextDateExtractor.swift in Sources */,
+				F18682EE3098FC05003D5297 /* NotificationService.swift in Sources */,
+				F18682EF3098FC05003D5297 /* EventFeedService.swift in Sources */,
+				F18682F03098FC05003D5297 /* Models.swift in Sources */,
+				F18682F13098FC05003D5297 /* PhotoLibrarySaver.swift in Sources */,
+				F18682F23098FC05003D5297 /* EventsListView.swift in Sources */,
+				F18682F33098FC05003D5297 /* CategoriesView.swift in Sources */,
+				F18682F43098FC05003D5297 /* DiscoverView.swift in Sources */,
+				F18682F53098FC05003D5297 /* FlyerScanner.swift in Sources */,
+				F18682F63098FC05003D5297 /* CampusEventsApp.swift in Sources */,
+				F18682F73098FC05003D5297 /* GoogleCalendarService.swift in Sources */,
+				F18682F83098FC05003D5297 /* AuthService.swift in Sources */,
+				F18682F93098FC05003D5297 /* SignInView.swift in Sources */,
+				F18682FA3098FC05003D5297 /* EventSaver.swift in Sources */,
+				F18682FB3098FC05003D5297 /* ScanView.swift in Sources */,
+				F18682FC3098FC05003D5297 /* RootView.swift in Sources */,
+				F18682FD3098FC05003D5297 /* Components.swift in Sources */,
+				F18682FE3098FC05003D5297 /* FeedParsers.swift in Sources */,
+				F18682FF3098FC05003D5297 /* Theme.swift in Sources */,
+				F18683003098FC05003D5297 /* SettingsView.swift in Sources */,
+				F18683013098FC05003D5297 /* DepartmentsView.swift in Sources */,
+				F18682BA3098F311003D5297 /* AuthService.swift in Sources */,
+				F18682BB3098F311003D5297 /* EventFeedService.swift in Sources */,
+				F18682BC3098F311003D5297 /* EventSaver.swift in Sources */,
+				F18682BD3098F311003D5297 /* FeedParsers.swift in Sources */,
+				F18682BE3098F311003D5297 /* FlyerScanner.swift in Sources */,
+				F18682BF3098F311003D5297 /* GoogleCalendarService.swift in Sources */,
+				F18682C03098F311003D5297 /* NotificationService.swift in Sources */,
+				F18682C13098F311003D5297 /* PhotoLibrarySaver.swift in Sources */,
+				F18682C23098F311003D5297 /* TextDateExtractor.swift in Sources */,
+				F18682B93098F30E003D5297 /* Models.swift in Sources */,
+				F18682B73098F30B003D5297 /* CampusEventsApp.swift in Sources */,
+				F18682B83098F30B003D5297 /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F18682363098EF93003D5297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 54TJ6BQD8Y;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = /Users/hanaparker/Dev/daydrop/CampusEvents/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F18682373098EF93003D5297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 54TJ6BQD8Y;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = /Users/hanaparker/Dev/daydrop/CampusEvents/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F18682393098EF93003D5297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54TJ6BQD8Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = /Users/hanaparker/Dev/daydrop/daydrop/CampusEvents/CampusEvents/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftWWDC.daydrop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F186823A3098EF93003D5297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54TJ6BQD8Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = /Users/hanaparker/Dev/daydrop/daydrop/CampusEvents/CampusEvents/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftWWDC.daydrop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F18682283098EF92003D5297 /* Build configuration list for PBXProject "daydrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18682363098EF93003D5297 /* Debug */,
+				F18682373098EF93003D5297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F18682383098EF93003D5297 /* Build configuration list for PBXNativeTarget "daydrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18682393098EF93003D5297 /* Debug */,
+				F186823A3098EF93003D5297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F18682CC3098F399003D5297 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F18682CD3098F399003D5297 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F18682CC3098F399003D5297 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		F18682CF3098F399003D5297 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F18682CC3098F399003D5297 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F18682253098EF92003D5297 /* Project object */;
+}
